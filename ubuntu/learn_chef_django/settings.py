@@ -64,7 +64,7 @@ WSGI_APPLICATION = 'learn_chef_django.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'img_svr_db',
+        'NAME': 'random_images_db',
         'USER': 'root',
         'PASSWORD': 'learnchef',
         'HOST': '127.0.0.1',
