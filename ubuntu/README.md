@@ -11,13 +11,13 @@ We'll later be using Chef to deploy, but for now...
 sudo bash ./install.sh
 ```
 
-When prompted for a database password, enter **learnchef**.
+  When prompted for a database password, enter **learnchef**.
 
 1. Set up the database.
 
   ```bash
 mysql --user=root --password=learnchef
-> CREATE DATABASE random\_images\_db;
+> CREATE DATABASE random_images_db;
 > exit
 ```
 
@@ -34,4 +34,4 @@ python manage.py migrate
 python manage.py runserver&
 ```
 
-The app will be available at http://127.0.0.1:8000.
+  The app will be available at http://127.0.0.1:8000.
