@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset=utf-8>
+  <title>{{ title }}</title>
+  <!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"/>
+  <![endif]-->
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}random_images/css/base.css" />
+</head>
+<body>
+  <center>
+    <p>
+      <img width=450 height=450 src="{{ file_path }}"/>
+    </p>
+    <p>
+    shown {{ view_count }} times
+    </p>
+
+    <ul class="nav-bar">
+      <li>
+        <a class="button home" href="/">Home</a>
+      </li>
+      <li>
+        <a class="button next" href="{{ path }}">Next</a>
+      </li>
+    </ul>
+  </center>
+</body>
+</html>
